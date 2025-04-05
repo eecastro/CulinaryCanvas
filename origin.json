@@ -1,43 +1,93 @@
 {
   "origin": [
-    "Tonight's culinary experience: #fine_dining_description# (It's just #dish_name#)",
-    "This evening I've prepared #fine_dining_description# (aka #dish_name#)",
-    "From the kitchen: #fine_dining_description# (really just #dish_name#)",
-    "The chef's special tonight: #fine_dining_description# (or as the kids call it, #dish_name#)",
-    "Presenting tonight's dinner: #fine_dining_description# (fine, it's #dish_name#)"
+    "Tonight's culinary experience: #fine_dining_description#",
+    "This evening I've prepared #fine_dining_description#",
+    "From the kitchen: #fine_dining_description#",
+    "The chef's special tonight: #fine_dining_description#",
+    "Presenting tonight's dinner: #fine_dining_description#"
   ],
   
   "fine_dining_description": [
-    "A #adjective# #cooking_method# #dish_base# #garnish_description#, presented on a #plating_style# and #sauce_description#",
-    "My interpretation of a classic #dish_base#, featuring #adjective# #key_ingredient# and #sauce_description#",
-    "A rustic yet #adjective# #cooking_method# #dish_base# accompanied by #side_dish#, #garnish_description#",
-    "A reimagined family favorite: #cooking_method# #dish_base# with #adjective# #key_ingredient# and #sauce_description#"
+    "#spaghetti_description# (It's just #spaghetti_name#)",
+    "#mac_cheese_description# (aka #mac_cheese_name#)",
+    "#taco_description# (really just #taco_name#)",
+    "#meatloaf_description# (or as the kids call it, #meatloaf_name#)",
+    "#casserole_description# (fine, it's #casserole_name#)",
+    "#burger_description# (It's just #burger_name#)",
+    "#pizza_description# (aka #pizza_name#)",
+    "#chicken_description# (really just #chicken_name#)",
+    "#stir_fry_description# (or as the kids call it, #stir_fry_name#)",
+    "#sandwich_description# (fine, it's #sandwich_name#)"
   ],
   
-  "dish_base": [
-    "#spaghetti_base#",
-    "#mac_cheese_base#",
-    "#taco_base#",
-    "#meatloaf_base#",
-    "#casserole_base#",
-    "#burger_base#",
-    "#pizza_base#",
-    "#chicken_base#",
-    "#stir_fry_base#",
-    "#sandwich_base#"
+  "spaghetti_description": [
+    "A #adjective# #cooking_method# durum wheat pasta composition #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic al dente noodle selection, featuring #adjective# #tomato_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# Italian-inspired carbohydrate canvas accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# semolina masterpiece with #adjective# #meat_ingredient# and #sauce_description#"
   ],
   
-  "dish_name": [
-    "#spaghetti_name#",
-    "#mac_cheese_name#",
-    "#taco_name#",
-    "#meatloaf_name#",
-    "#casserole_name#",
-    "#burger_name#",
-    "#pizza_name#",
-    "#chicken_name#",
-    "#stir_fry_name#",
-    "#sandwich_name#"
+  "mac_cheese_description": [
+    "A #adjective# #cooking_method# elbow pasta with cheese infusion #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic cheddar-enriched macaroni creation, featuring #adjective# #dairy_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# fromage-forward pasta composition accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# artisanal cheese and pasta integration with #adjective# #dairy_ingredient# and #sauce_description#"
+  ],
+  
+  "taco_description": [
+    "A #adjective# #cooking_method# hand-pressed corn tortilla assemblage #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic deconstructed Mexican-inspired handheld, featuring #adjective# #protein_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# curated protein-to-tortilla delivery system accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# artisanal fold-over culinary transport with #adjective# #protein_ingredient# and #sauce_description#"
+  ],
+  
+  "meatloaf_description": [
+    "A #adjective# #cooking_method# sculpted ground beef terrine #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic heritage-inspired protein formation, featuring #adjective# #meat_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# molded bovine creation accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# compressed beef masterpiece with #adjective# #meat_ingredient# and #sauce_description#"
+  ],
+  
+  "casserole_description": [
+    "A #adjective# #cooking_method# multi-layered baked composition #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic harmonious ingredient stratification, featuring #adjective# #protein_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# oven-unified medley accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# carefully assembled dish convergence with #adjective# #protein_ingredient# and #sauce_description#"
+  ],
+  
+  "burger_description": [
+    "A #adjective# #cooking_method# hand-formed beef patty construction #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic artisanal ground beef disc, featuring #adjective# #meat_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# bun-enveloped meat presentation accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# elevated backyard classic with #adjective# #meat_ingredient# and #sauce_description#"
+  ],
+  
+  "pizza_description": [
+    "A #adjective# #cooking_method# hand-tossed flatbread canvas #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic Italian-inspired dough foundation, featuring #adjective# #tomato_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# thin-crust circular delivery system accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# artisanal open-faced composition with #adjective# #dairy_ingredient# and #sauce_description#"
+  ],
+  
+  "chicken_description": [
+    "A #adjective# #cooking_method# free-range poultry preparation #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic locally-sourced avian protein, featuring #adjective# #herb_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# heritage-breed fowl selection accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# succulent poultry arrangement with #adjective# #herb_ingredient# and #sauce_description#"
+  ],
+  
+  "stir_fry_description": [
+    "A #adjective# #cooking_method# wok-tossed ingredient medley #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic high-heat protein and vegetable fusion, featuring #adjective# #vegetable_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# Asian-inspired culinary convergence accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# flash-cooked textural symphony with #adjective# #protein_ingredient# and #sauce_description#"
+  ],
+  
+  "sandwich_description": [
+    "A #adjective# #cooking_method# dual-bread enclosure #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic artisanal filling-delivery platform, featuring #adjective# #protein_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# carefully stratified ingredient stack accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# composed bread-framed creation with #adjective# #dairy_ingredient# and #sauce_description#"
   ],
   
   "spaghetti_name": [
@@ -48,28 +98,12 @@
     "pasta night"
   ],
   
-  "spaghetti_base": [
-    "durum wheat pasta composition",
-    "hand-crafted pasta arrangement",
-    "al dente noodle selection",
-    "Italian-inspired carbohydrate canvas",
-    "semolina masterpiece"
-  ],
-  
   "mac_cheese_name": [
     "mac and cheese",
     "macaroni and cheese",
     "mac 'n' cheese",
     "cheesy pasta",
     "cheddar mac"
-  ],
-  
-  "mac_cheese_base": [
-    "cavatappi and aged dairy emulsion",
-    "elbow pasta with cheese infusion",
-    "cheddar-enriched macaroni creation",
-    "artisanal cheese and pasta integration",
-    "fromage-forward pasta composition"
   ],
   
   "taco_name": [
@@ -80,28 +114,12 @@
     "family taco night"
   ],
   
-  "taco_base": [
-    "hand-pressed corn tortilla assemblage",
-    "deconstructed Mexican-inspired handheld",
-    "curated protein-to-tortilla delivery system",
-    "artisanal fold-over culinary transport",
-    "traditional Mesoamerican flavor vessel"
-  ],
-  
   "meatloaf_name": [
     "meatloaf",
     "classic meatloaf",
     "mom's meatloaf recipe",
     "home-style meatloaf",
     "beef meatloaf"
-  ],
-  
-  "meatloaf_base": [
-    "sculpted ground beef terrine",
-    "heritage-inspired protein formation",
-    "molded bovine creation",
-    "savory meat amalgamation",
-    "compressed beef masterpiece"
   ],
   
   "casserole_name": [
@@ -112,28 +130,12 @@
     "leftover casserole"
   ],
   
-  "casserole_base": [
-    "multi-layered baked composition",
-    "harmonious ingredient stratification",
-    "oven-unified medley",
-    "carefully assembled dish convergence",
-    "traditional family-style amalgamation"
-  ],
-  
   "burger_name": [
     "hamburgers",
     "cheeseburgers",
     "backyard burgers",
     "grilled burgers",
     "sliders"
-  ],
-  
-  "burger_base": [
-    "hand-formed beef patty construction",
-    "artisanal ground beef disc",
-    "carefully proportioned handheld protein experience",
-    "bun-enveloped meat presentation",
-    "elevated backyard classic"
   ],
   
   "pizza_name": [
@@ -144,28 +146,12 @@
     "make-your-own pizza"
   ],
   
-  "pizza_base": [
-    "hand-tossed flatbread canvas",
-    "thin-crust circular delivery system",
-    "Italian-inspired dough foundation",
-    "house-stretched wheat disc",
-    "artisanal open-faced composition"
-  ],
-  
   "chicken_name": [
     "roast chicken",
     "baked chicken",
     "chicken thighs",
     "chicken drumsticks",
     "chicken breasts"
-  ],
-  
-  "chicken_base": [
-    "free-range poultry preparation",
-    "locally-sourced avian protein",
-    "heritage-breed fowl selection",
-    "farm-to-table chicken interpretation",
-    "succulent poultry arrangement"
   ],
   
   "stir_fry_name": [
@@ -176,28 +162,12 @@
     "quick stir fry"
   ],
   
-  "stir_fry_base": [
-    "wok-tossed ingredient medley",
-    "high-heat protein and vegetable fusion",
-    "Asian-inspired culinary convergence",
-    "rapidly seared component harmony",
-    "flash-cooked textural symphony"
-  ],
-  
   "sandwich_name": [
     "grilled cheese",
     "BLTs",
     "tuna melts",
     "turkey sandwiches",
     "sandwich night"
-  ],
-  
-  "sandwich_base": [
-    "dual-bread enclosure",
-    "artisanal filling-delivery platform",
-    "classic handheld grain-based construction",
-    "composed bread-framed creation",
-    "carefully stratified ingredient stack"
   ],
   
   "adjective": [
@@ -267,14 +237,52 @@
     "artisanal rice blend"
   ],
   
-  "key_ingredient": [
+  "meat_ingredient": [
     "grade-A ground beef",
-    "farm-fresh eggs",
-    "melted cheese blend",
-    "garden tomatoes",
-    "hand-selected spices",
-    "seasonal vegetables",
-    "family recipe sauce"
+    "heritage-breed protein",
+    "house-ground sirloin",
+    "pasture-raised meat blend",
+    "family farm beef"
+  ],
+  
+  "dairy_ingredient": [
+    "three-year aged cheddar",
+    "artisanal cheese blend",
+    "cultured dairy medley",
+    "small-batch cheese selection",
+    "cave-aged dairy components"
+  ],
+  
+  "protein_ingredient": [
+    "sustainable protein",
+    "ethically-sourced protein",
+    "hand-selected protein",
+    "carefully curated protein",
+    "chef-approved protein"
+  ],
+  
+  "tomato_ingredient": [
+    "heirloom tomato",
+    "vine-ripened tomato",
+    "San Marzano tomato reduction",
+    "garden-fresh tomato",
+    "small-batch tomato concentrate"
+  ],
+  
+  "vegetable_ingredient": [
+    "peak-season vegetables",
+    "farmers market produce",
+    "garden-fresh vegetable selection",
+    "curated seasonal vegetables",
+    "hand-picked vegetable medley"
+  ],
+  
+  "herb_ingredient": [
+    "carefully selected herb blend",
+    "fragrant herb infusion",
+    "garden-fresh herb selection",
+    "aromatic herb mixture",
+    "hand-picked herb bouquet"
   ],
   
   "sauce": [
