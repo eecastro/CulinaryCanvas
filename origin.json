@@ -1,0 +1,502 @@
+{
+  "origin": [
+    "\"#consistent_beef_dish#\"",
+    "\"#consistent_pork_dish#\"",
+    "\"#consistent_lamb_dish#\"",
+    "\"#consistent_chicken_dish#\"",
+    "\"#consistent_fish_dish#\"",
+    "\"#consistent_vegetable_dish#\"",
+    "\"#simple_dish_name#\":\n#simple_dish_description.capitalize#"
+  ],
+  
+  "consistent_beef_dish": [
+    "#beef_title#:\n#beef_description.capitalize#"
+  ],
+  
+  "consistent_pork_dish": [
+    "#pork_title#:\n#pork_description.capitalize#"
+  ],
+  
+  "consistent_lamb_dish": [
+    "#lamb_title#:\n#lamb_description.capitalize#"
+  ],
+  
+  "consistent_chicken_dish": [
+    "#chicken_title#:\n#chicken_description.capitalize#"
+  ],
+  
+  "consistent_fish_dish": [
+    "#fish_title#:\n#fish_description.capitalize#"
+  ],
+  
+  "consistent_vegetable_dish": [
+    "#vegetable_title#:\n#vegetable_description.capitalize#"
+  ],
+  
+  "beef_title": [
+    "Herb-Crusted Beef Tenderloin",
+    "Grilled Ribeye Steak",
+    "Slow-Cooked Beef Short Ribs",
+    "Braised Beef Brisket",
+    "Pan-Seared Steak",
+    "#regional# Beef"
+  ],
+  
+  "pork_title": [
+    "Herb-Crusted Pork Loin",
+    "Grilled Pork Chops",
+    "Slow-Cooked Pulled Pork",
+    "Crispy Pork Belly",
+    "Roasted Pork Tenderloin",
+    "#regional# Pork"
+  ],
+  
+  "lamb_title": [
+    "Herb-Crusted Lamb Chops",
+    "Grilled Lamb Skewers",
+    "Slow-Cooked Lamb Shoulder",
+    "Roasted Rack of Lamb",
+    "Braised Lamb Shank",
+    "#regional# Lamb"
+  ],
+  
+  "chicken_title": [
+    "Herb-Roasted Chicken",
+    "Grilled Chicken Breast",
+    "Crispy Chicken Thighs",
+    "Pan-Seared Chicken",
+    "Slow-Cooked Chicken",
+    "#regional# Chicken"
+  ],
+  
+  "fish_title": [
+    "Grilled Salmon",
+    "Pan-Seared Sea Bass",
+    "Crispy-Skin Trout",
+    "Roasted Cod",
+    "Seared Tuna",
+    "#regional# Fish"
+  ],
+  
+  "vegetable_title": [
+    "Roasted Seasonal Vegetables",
+    "Grilled Vegetable Platter",
+    "Garden Vegetable Medley",
+    "Herb-Roasted Cauliflower",
+    "Sautéed Mushroom Medley",
+    "#regional# Vegetables"
+  ],
+  
+  "protein_focused": [
+    "Herb-Crusted #meat#",
+    "Grilled #fish#",
+    "Roasted #poultry#",
+    "Slow-Cooked #meat#",
+    "Seared #fish#",
+    "Braised #meat#",
+    "#flavor_profile# #protein_source#"
+  ],
+  
+  "vegetable_focused": [
+    "Roasted #vegetable#",
+    "Fresh #vegetable# Salad",
+    "Grilled #vegetable#",
+    "Seasonal #vegetable#",
+    "#vegetable# Medley",
+    "#vegetable# Soup",
+    "#vegetable# with #flavor_profile# Sauce"
+  ],
+  
+  "beef_description": [
+    "#cooking_method# beef tenderloin served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# ribeye steak served with #side_dish#. #sauce_detail#.",
+    "Slow-cooked beef short ribs with #flavor_profile# flavors, served with #side_dish#.",
+    "Braised beef brisket served with #side_dish#. #sauce_detail#.",
+    "Tender beef with #flavor_profile# flavors, served with #side_dish#."
+  ],
+  
+  "pork_description": [
+    "#cooking_method# pork loin served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# pork chops served with #side_dish#. #sauce_detail#.",
+    "Slow-cooked pulled pork with #flavor_profile# flavors, served with #side_dish#.",
+    "Crispy pork belly served with #side_dish#. #sauce_detail#.",
+    "Tender pork with #flavor_profile# flavors, served with #side_dish#."
+  ],
+  
+  "lamb_description": [
+    "#cooking_method# lamb chops served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# rack of lamb served with #side_dish#. #sauce_detail#.",
+    "Slow-cooked lamb shoulder with #flavor_profile# flavors, served with #side_dish#.",
+    "Braised lamb shank served with #side_dish#. #sauce_detail#.",
+    "Tender lamb with #flavor_profile# flavors, served with #side_dish#."
+  ],
+  
+  "chicken_description": [
+    "#cooking_method# chicken breast served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# chicken thighs served with #side_dish#. #sauce_detail#.",
+    "Slow-cooked chicken with #flavor_profile# flavors, served with #side_dish#.",
+    "Roasted chicken served with #side_dish#. #sauce_detail#.",
+    "Tender chicken with #flavor_profile# flavors, served with #side_dish#."
+  ],
+  
+  "fish_description": [
+    "#cooking_method# salmon served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# sea bass served with #side_dish#. #sauce_detail#.",
+    "#cooking_method# trout with #flavor_profile# flavors, served with #side_dish#.",
+    "#cooking_method# cod served with #side_dish#. #sauce_detail#.",
+    "Fresh #fish# with #flavor_profile# flavors, served with #side_dish#."
+  ],
+  
+  "vegetable_description": [
+    "Roasted seasonal vegetables served with #side_dish#. #sauce_detail#.",
+    "Grilled vegetables with #flavor_profile# flavors, served with #side_dish#.",
+    "Fresh garden vegetables served with #side_dish#. #sauce_detail#.",
+    "Herb-roasted cauliflower with #flavor_profile# flavors, served with #side_dish#.",
+    "Sautéed mushroom medley served with #side_dish#. #sauce_detail#."
+  ],
+  
+  "cooking_method": [
+    "Pan-seared", 
+    "Roasted", 
+    "Crispy", 
+    "Braised", 
+    "Poached", 
+    "Grilled", 
+    "Charred", 
+    "Smoked", 
+    "Slow-cooked", 
+    "Sautéed"
+  ],
+  
+  "protein": [
+    "#meat#", 
+    "#fish#", 
+    "#poultry#"
+  ],
+  
+  "meat": [
+    "pork loin", 
+    "beef tenderloin", 
+    "flank steak", 
+    "lamb chops",
+    "beef brisket", 
+    "pork chops", 
+    "ribeye steak", 
+    "beef short ribs"
+  ],
+  
+  "fish": [
+    "salmon", 
+    "cod", 
+    "sea bass", 
+    "tuna", 
+    "trout", 
+    "scallops", 
+    "catfish", 
+    "flounder"
+  ],
+  
+  "poultry": [
+    "chicken breast", 
+    "chicken thighs", 
+    "chicken drumsticks", 
+    "chicken wings", 
+    "turkey breast",
+    "roast chicken", 
+    "duck breast"
+  ],
+  
+  "vegetable": [
+    "cauliflower", 
+    "tomatoes", 
+    "mushrooms", 
+    "asparagus", 
+    "carrots", 
+    "seasonal vegetables", 
+    "squash", 
+    "artichokes", 
+    "Brussels sprouts"
+  ],
+  
+  "protein_source": [
+    "beef", 
+    "pork", 
+    "lamb", 
+    "chicken", 
+    "turkey", 
+    "salmon", 
+    "tuna", 
+    "duck",
+    "short ribs",
+    "steak"
+  ],
+  
+  "side_dish": [
+    "roasted vegetables", 
+    "mashed potatoes", 
+    "steamed rice", 
+    "garden salad", 
+    "seasonal vegetables", 
+    "grilled asparagus", 
+    "crispy potatoes", 
+    "creamy polenta",
+    "wild rice",
+    "quinoa salad"
+  ],
+  
+  "sauce_detail": [
+    "Served with #sauce# sauce",
+    "Finished with #sauce# reduction",
+    "Topped with #herb# butter",
+    "Drizzled with #flavor_profile# sauce",
+    "Comes with #sauce# on the side",
+    "With a light #herb# cream sauce"
+  ],
+  
+  "sauce": [
+    "herb", 
+    "white wine", 
+    "red wine", 
+    "garlic cream", 
+    "lemon butter", 
+    "mushroom", 
+    "tomato",
+    "balsamic"
+  ],
+  
+  "herb": [
+    "rosemary", 
+    "thyme", 
+    "basil", 
+    "mint", 
+    "sage", 
+    "oregano", 
+    "tarragon", 
+    "parsley", 
+    "chive", 
+    "dill"
+  ],
+  
+  "flavor_profile": [
+    "herb-infused", 
+    "citrus", 
+    "spicy", 
+    "smoky", 
+    "garlic", 
+    "honey-glazed", 
+    "wine-braised", 
+    "balsamic", 
+    "mustard", 
+    "sesame-ginger",
+    "maple",
+    "sweet and savory"
+  ],
+  
+  "regional": [
+    "Italian", 
+    "French", 
+    "Southern", 
+    "Mediterranean", 
+    "Asian", 
+    "Mexican", 
+    "Greek", 
+    "Moroccan", 
+    "Thai", 
+    "Cajun"
+  ],
+  
+  "seasonal": [
+    "Spring", 
+    "Summer", 
+    "Fall", 
+    "Winter", 
+    "Seasonal", 
+    "Harvest", 
+    "Garden-fresh"
+  ],
+  
+  "dish_type": [
+    "Salad", 
+    "Soup", 
+    "Stew", 
+    "Pasta", 
+    "Risotto", 
+    "Bowl", 
+    "Platter", 
+    "Entrée"
+  ],
+  
+  "simple_dish_name": [
+    "#meatloaf_name#",
+    "#hotdog_name#",
+    "#hamburger_name#",
+    "#spaghetti_name#",
+    "#pbj_name#",
+    "#mac_cheese_name#",
+    "#grilled_cheese_name#",
+    "#pizza_name#",
+    "#chicken_nugget_name#",
+    "#tuna_sandwich_name#"
+  ],
+  
+  "simple_dish_description": [
+    "#meatloaf_description#",
+    "#hotdog_description#",
+    "#hamburger_description#",
+    "#spaghetti_description#",
+    "#pbj_description#",
+    "#mac_cheese_description#",
+    "#grilled_cheese_description#",
+    "#pizza_description#",
+    "#chicken_nugget_description#",
+    "#tuna_sandwich_description#"
+  ],
+  
+  "meatloaf_name": [
+    "Classic Meatloaf",
+    "Home-Style Meatloaf",
+    "Glazed Beef Meatloaf",
+    "Mom's Meatloaf",
+    "Hearty Meatloaf"
+  ],
+  
+  "meatloaf_description": [
+    "Ground beef mixed with onions, herbs and breadcrumbs, topped with tangy tomato glaze",
+    "Classic beef meatloaf with garlic and herbs, glazed with sweet tomato sauce",
+    "Juicy beef meatloaf with vegetables and herbs, topped with savory tomato glaze"
+  ],
+  
+  "hotdog_name": [
+    "Classic Hot Dog",
+    "All-Beef Hot Dog",
+    "Ballpark Hot Dog",
+    "Loaded Hot Dog",
+    "Grilled Hot Dog"
+  ],
+  
+  "hotdog_description": [
+    "Grilled all-beef hot dog served on a soft bun with your choice of toppings",
+    "Juicy hot dog served on a toasted bun with ketchup, mustard and relish",
+    "Savory hot dog on a warm bun with classic condiments"
+  ],
+  
+  "hamburger_name": [
+    "Classic Burger",
+    "Cheese Burger",
+    "House Burger",
+    "Bistro Burger",
+    "Grilled Burger"
+  ],
+  
+  "hamburger_description": [
+    "Grilled beef patty on a toasted bun with lettuce, tomato, onion and house sauce",
+    "Juicy hamburger with melted cheese, fresh vegetables and special sauce",
+    "Hand-formed beef patty grilled to order, served on a brioche bun with fresh toppings"
+  ],
+  
+  "spaghetti_name": [
+    "Spaghetti & Meatballs",
+    "Classic Spaghetti",
+    "Tomato Spaghetti",
+    "House Spaghetti",
+    "Family Recipe Spaghetti"
+  ],
+  
+  "spaghetti_description": [
+    "Al dente pasta with slow-simmered tomato sauce and seasoned beef meatballs",
+    "Tender spaghetti tossed in rich tomato sauce, topped with hand-rolled meatballs",
+    "Fresh pasta with house-made tomato sauce and savory meatballs, finished with parmesan"
+  ],
+  
+  "pbj_name": [
+    "Classic PB&J",
+    "Peanut Butter & Jelly Sandwich",
+    "House PB&J",
+    "Signature PB&J",
+    "Nostalgic PB&J"
+  ],
+  
+  "pbj_description": [
+    "Creamy peanut butter and fruit preserves on fresh bread",
+    "Smooth peanut butter paired with seasonal fruit jam on soft bread",
+    "A perfect balance of nutty peanut butter and sweet fruit preserves between slices of bread"
+  ],
+  
+  "mac_cheese_name": [
+    "Mac & Cheese",
+    "Creamy Mac & Cheese",
+    "Classic Mac & Cheese",
+    "House Mac & Cheese",
+    "Three-Cheese Mac"
+  ],
+  
+  "mac_cheese_description": [
+    "Elbow pasta in rich cheese sauce, topped with crispy breadcrumbs",
+    "Tender pasta in a creamy three-cheese sauce with a golden crust",
+    "Al dente macaroni baked in velvety cheese sauce until bubbly and golden"
+  ],
+  
+  "grilled_cheese_name": [
+    "Classic Grilled Cheese",
+    "House Grilled Cheese",
+    "Golden Grilled Cheese",
+    "Melty Grilled Cheese",
+    "Bistro Grilled Cheese"
+  ],
+  
+  "grilled_cheese_description": [
+    "Melted cheese between slices of buttery toasted bread",
+    "Blend of melted cheeses in golden, butter-grilled bread",
+    "Crispy bread filled with gooey melted cheese, grilled to perfection"
+  ],
+  
+  "pizza_name": [
+    "Margherita Pizza",
+    "House Pizza",
+    "Classic Pizza",
+    "Hand-Tossed Pizza",
+    "Signature Pizza"
+  ],
+  
+  "pizza_description": [
+    "Thin crust topped with tomato sauce, fresh mozzarella and basil",
+    "Fresh dough with house-made sauce, melted cheese and selected toppings",
+    "Stone-baked pizza with savory tomato sauce and quality toppings"
+  ],
+  
+  "chicken_nugget_name": [
+    "Chicken Nuggets",
+    "Crispy Chicken Bites",
+    "Golden Chicken Nuggets",
+    "House Chicken Nuggets",
+    "Fresh Chicken Nuggets"
+  ],
+  
+  "chicken_nugget_description": [
+    "Tender pieces of chicken in crispy breading, served with dipping sauces",
+    "Bite-sized chicken breast pieces with crunchy coating and house sauces",
+    "Hand-breaded chicken nuggets fried until golden, with your choice of sauce"
+  ],
+  
+  "tuna_sandwich_name": [
+    "Tuna Sandwich",
+    "Classic Tuna Salad",
+    "Fresh Tuna Sandwich",
+    "House Tuna Sandwich",
+    "Deli-Style Tuna Sandwich"
+  ],
+  
+  "chef_reply": [
+    "You get what's served, not a menu.",
+    "This kitchen doesn't take special orders.",
+    "I'm the cook, not your waiter.",
+    "Dinner's not a democracy.",
+    "This isn't a buffet--take it or leave it.",
+    "The chef has spoken!",
+    "This isn't a made-to-order kitchen.",
+    "We're not running a drive-thru here.",
+    "You can't send it back to the chef.",
+    "The menu's set--no substitutions.",
+"You'll eat what you get, and you'll like it."
+  ]
+}
