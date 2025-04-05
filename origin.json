@@ -1,10 +1,10 @@
 {
   "origin": [
-    "Tonight, I'm preparing #dish_name# for the family. #fine_dining_description# #family_reaction#",
-    "On the menu this evening: #dish_name#. #fine_dining_description# #cooking_status#",
-    "Dinner tonight: #dish_name#. #fine_dining_description# #family_reaction#",
-    "For tonight's culinary experience: #dish_name#. #fine_dining_description# #cooking_status#",
-    "Family dinner announcement: #dish_name#. #fine_dining_description# #family_reaction#"
+    "Tonight, I'm preparing #dish_name# for the family. #fine_dining_description#",
+    "On the menu this evening: #dish_name#. #fine_dining_description#",
+    "Dinner tonight: #dish_name#. #fine_dining_description#",
+    "For tonight's culinary experience: #dish_name#. #fine_dining_description#",
+    "Family dinner announcement: #dish_name#. #fine_dining_description#"
   ],
   
   "dish_name": [
@@ -216,30 +216,6 @@
     "chive",
     "mint",
     "oregano"
-  ],
-  
-  "family_reaction": [
-    "The kids are already asking when dinner will be ready.",
-    "My spouse says it smells amazing!",
-    "I expect clean plates tonight!",
-    "The dog hasn't left the kitchen since I started cooking.",
-    "Last time I made this, there wasn't a single leftover.",
-    "My critics (aka the family) have high expectations for this one.",
-    "The real challenge will be getting the picky eater to try it.",
-    "I've been informed that I better not 'make it fancy again.'",
-    "The family has been mysteriously circling the kitchen for the past hour."
-  ],
-  
-  "cooking_status": [
-    "Currently pretending I know what I'm doing.",
-    "Apron is on, game face activated.",
-    "Already set off the smoke detector once!",
-    "The recipe said 30 minutes. We're at 90 and counting...",
-    "I may have gotten a bit ambitious with this one.",
-    "So far, only minor kitchen disasters to report.",
-    "Kitchen currently looks like a war zone, but it'll be worth it.",
-    "My sous chef (the 7-year-old) is 'helping.'",
-    "This is either going to be amazing or we're ordering pizza."
   ],
   
   "chef_reply": [
