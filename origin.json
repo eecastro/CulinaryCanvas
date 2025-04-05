@@ -1,10 +1,30 @@
 {
   "origin": [
-    "Tonight, I'm preparing #dish_name# for the family. #fine_dining_description#",
-    "On the menu this evening: #dish_name#. #fine_dining_description#",
-    "Dinner tonight: #dish_name#. #fine_dining_description#",
-    "For tonight's culinary experience: #dish_name#. #fine_dining_description#",
-    "Family dinner announcement: #dish_name#. #fine_dining_description#"
+    "Tonight's culinary experience: #fine_dining_description# (It's just #dish_name#)",
+    "This evening I've prepared #fine_dining_description# (aka #dish_name#)",
+    "From the kitchen: #fine_dining_description# (really just #dish_name#)",
+    "The chef's special tonight: #fine_dining_description# (or as the kids call it, #dish_name#)",
+    "Presenting tonight's dinner: #fine_dining_description# (fine, it's #dish_name#)"
+  ],
+  
+  "fine_dining_description": [
+    "A #adjective# #cooking_method# #dish_base# #garnish_description#, presented on a #plating_style# and #sauce_description#",
+    "My interpretation of a classic #dish_base#, featuring #adjective# #key_ingredient# and #sauce_description#",
+    "A rustic yet #adjective# #cooking_method# #dish_base# accompanied by #side_dish#, #garnish_description#",
+    "A reimagined family favorite: #cooking_method# #dish_base# with #adjective# #key_ingredient# and #sauce_description#"
+  ],
+  
+  "dish_base": [
+    "#spaghetti_base#",
+    "#mac_cheese_base#",
+    "#taco_base#",
+    "#meatloaf_base#",
+    "#casserole_base#",
+    "#burger_base#",
+    "#pizza_base#",
+    "#chicken_base#",
+    "#stir_fry_base#",
+    "#sandwich_base#"
   ],
   
   "dish_name": [
@@ -20,19 +40,20 @@
     "#sandwich_name#"
   ],
   
-  "fine_dining_description": [
-    "A #adjective# #cooking_method# #base_dish# #garnish_description#, presented on a #plating_style# and #sauce_description#.",
-    "My interpretation of a classic #base_dish#, featuring #adjective# #key_ingredient# and #sauce_description#.",
-    "A rustic yet #adjective# #cooking_method# #base_dish# accompanied by #side_dish#, #garnish_description#.",
-    "A reimagined family favorite: #cooking_method# #base_dish# with #adjective# #key_ingredient# and #sauce_description#."
-  ],
-  
   "spaghetti_name": [
     "spaghetti and meatballs",
     "spaghetti with tomato sauce",
     "pasta with marinara",
     "spaghetti bolognese",
     "pasta night"
+  ],
+  
+  "spaghetti_base": [
+    "durum wheat pasta composition",
+    "hand-crafted pasta arrangement",
+    "al dente noodle selection",
+    "Italian-inspired carbohydrate canvas",
+    "semolina masterpiece"
   ],
   
   "mac_cheese_name": [
@@ -43,12 +64,28 @@
     "cheddar mac"
   ],
   
+  "mac_cheese_base": [
+    "cavatappi and aged dairy emulsion",
+    "elbow pasta with cheese infusion",
+    "cheddar-enriched macaroni creation",
+    "artisanal cheese and pasta integration",
+    "fromage-forward pasta composition"
+  ],
+  
   "taco_name": [
     "tacos",
     "taco Tuesday",
     "beef tacos",
     "chicken tacos",
     "family taco night"
+  ],
+  
+  "taco_base": [
+    "hand-pressed corn tortilla assemblage",
+    "deconstructed Mexican-inspired handheld",
+    "curated protein-to-tortilla delivery system",
+    "artisanal fold-over culinary transport",
+    "traditional Mesoamerican flavor vessel"
   ],
   
   "meatloaf_name": [
@@ -59,12 +96,28 @@
     "beef meatloaf"
   ],
   
+  "meatloaf_base": [
+    "sculpted ground beef terrine",
+    "heritage-inspired protein formation",
+    "molded bovine creation",
+    "savory meat amalgamation",
+    "compressed beef masterpiece"
+  ],
+  
   "casserole_name": [
     "tuna casserole",
     "chicken casserole",
     "green bean casserole",
     "hashbrown casserole",
     "leftover casserole"
+  ],
+  
+  "casserole_base": [
+    "multi-layered baked composition",
+    "harmonious ingredient stratification",
+    "oven-unified medley",
+    "carefully assembled dish convergence",
+    "traditional family-style amalgamation"
   ],
   
   "burger_name": [
@@ -75,12 +128,28 @@
     "sliders"
   ],
   
+  "burger_base": [
+    "hand-formed beef patty construction",
+    "artisanal ground beef disc",
+    "carefully proportioned handheld protein experience",
+    "bun-enveloped meat presentation",
+    "elevated backyard classic"
+  ],
+  
   "pizza_name": [
     "homemade pizza",
     "pizza night",
     "cheese pizza",
     "pepperoni pizza",
     "make-your-own pizza"
+  ],
+  
+  "pizza_base": [
+    "hand-tossed flatbread canvas",
+    "thin-crust circular delivery system",
+    "Italian-inspired dough foundation",
+    "house-stretched wheat disc",
+    "artisanal open-faced composition"
   ],
   
   "chicken_name": [
@@ -91,6 +160,14 @@
     "chicken breasts"
   ],
   
+  "chicken_base": [
+    "free-range poultry preparation",
+    "locally-sourced avian protein",
+    "heritage-breed fowl selection",
+    "farm-to-table chicken interpretation",
+    "succulent poultry arrangement"
+  ],
+  
   "stir_fry_name": [
     "stir fry",
     "chicken stir fry",
@@ -99,12 +176,28 @@
     "quick stir fry"
   ],
   
+  "stir_fry_base": [
+    "wok-tossed ingredient medley",
+    "high-heat protein and vegetable fusion",
+    "Asian-inspired culinary convergence",
+    "rapidly seared component harmony",
+    "flash-cooked textural symphony"
+  ],
+  
   "sandwich_name": [
     "grilled cheese",
     "BLTs",
     "tuna melts",
     "turkey sandwiches",
     "sandwich night"
+  ],
+  
+  "sandwich_base": [
+    "dual-bread enclosure",
+    "artisanal filling-delivery platform",
+    "classic handheld grain-based construction",
+    "composed bread-framed creation",
+    "carefully stratified ingredient stack"
   ],
   
   "adjective": [
@@ -136,19 +229,6 @@
     "carefully assembled",
     "attentively grilled",
     "hand-tossed"
-  ],
-  
-  "base_dish": [
-    "pasta arrangement",
-    "ground beef medley",
-    "cheese blend",
-    "poultry composition",
-    "grain bowl",
-    "protein selection",
-    "sandwich construction",
-    "culinary fusion",
-    "vegetable composition",
-    "comfort food classic"
   ],
   
   "garnish_description": [
